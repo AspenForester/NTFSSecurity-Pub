@@ -53,4 +53,3 @@ New-Alias -Name del2 -Value Remove-Item2 -ErrorAction SilentlyContinue
 
 # Don't need to export aliases here now - jbl
 #Export-ModuleMember -Alias * -Function * -Cmdlet *
-Export-ModuleMember -Function * -Cmdlet *

@@ -72,9 +72,9 @@ $type_NTFS1 = @'
 #endregion
 
 Add-Type -TypeDefinition $type_NTFS1
-Add-Type -Path $PSScriptRoot\Security2.dll
-Add-Type -Path $PSScriptRoot\PrivilegeControl.dll -ReferencedAssemblies $PSScriptRoot\ProcessPrivileges.dll
-Add-Type -Path $PSScriptRoot\ProcessPrivileges.dll
+#Add-Type -Path $PSScriptRoot\Security2.dll
+#Add-Type -Path $PSScriptRoot\PrivilegeControl.dll -ReferencedAssemblies $PSScriptRoot\ProcessPrivileges.dll
+#Add-Type -Path $PSScriptRoot\ProcessPrivileges.dll
 
 #using Update-FormatData and not FormatsToProcess in the PSD1 as FormatsToProcess does not offer
 #putting format data in front of the default data. This is required to make the new formatter the default ones.

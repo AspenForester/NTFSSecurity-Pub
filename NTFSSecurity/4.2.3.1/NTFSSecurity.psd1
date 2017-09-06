@@ -1,5 +1,5 @@
 ﻿@{
-	ModuleToProcess = 'NTFSSecurity.psm1'
+	RootModule = 'NTFSSecurity.psm1'
 
 	ModuleVersion = '4.2.3.1'
 
@@ -15,7 +15,9 @@
 
 	PowerShellVersion = '2.0'
 
-	DotNetFrameworkVersion = '3.5'
+    DotNetFrameworkVersion = '3.5'
+    
+    RequiredAssemblies = @('Security2.dll','PrivilegeControl.dll','ProcessPrivileges.dll')
 
 	ScriptsToProcess = @('NTFSSecurity.Init.ps1')
 
