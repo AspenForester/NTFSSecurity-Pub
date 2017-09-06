@@ -21,11 +21,11 @@
 
 	TypesToProcess = @('NTFSSecurity.types.ps1xml')
 
-	FormatsToProcess = @()
+	FormatsToProcess = @('NTFSSecurity.format.ps1xml')
 
 	NestedModules = @('NTFSSecurity.dll')
 
-	AliasesToExport = '*'
+	AliasesToExport = 'dir2','gi2','rm2','del2'
 
 	CmdletsToExport = 'Add-NTFSAccess',
 		'Clear-NTFSAccess',

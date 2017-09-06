@@ -78,4 +78,6 @@ Add-Type -Path $PSScriptRoot\ProcessPrivileges.dll
 
 #using Update-FormatData and not FormatsToProcess in the PSD1 as FormatsToProcess does not offer
 #putting format data in front of the default data. This is required to make the new formatter the default ones.
-Update-FormatData -PrependPath $PSScriptRoot\NTFSSecurity.format.ps1xml
+
+# Does it need to be the default? -jbl
+#Update-FormatData -PrependPath $PSScriptRoot\NTFSSecurity.format.ps1xml
